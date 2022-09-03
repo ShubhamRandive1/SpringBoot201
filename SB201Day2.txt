@@ -1,0 +1,73 @@
+ What Is a Layered Architecture?
+ 
+ The number of layers in a layered architecture is not set to a specific number and is usually dependent on the developer or software architect. 
+ It is important to note that this framework will usually always have a user interaction layer, a layer for processing, and a layer that deals with data processing. 
+  
+
+Presentation Layer – responsible for user interactions with the software system
+Application/Business Layer – handles aspects related to accomplishing functional requirements
+Domain Layer – responsible for algorithms, and programming components
+Infrastructure/Persistence/Database Layer – responsible for handling data, databases.
+
+
+limitation of JDBC based persistence logic over JPA ?
+
+What Is JDBC
+JDBC is a programming-level interface for Java applications that communicate with a database. 
+An application uses this API to communicate with a JDBC manager. It's the common API that our application code uses to communicate with the database. 
+Beyond the API is the vendor-supplied, JDBC-compliant driver for the database we're using.
+
+3. What Is JPA
+JPA is a Java standard that allows us to bind Java objects to records in a relational database. 
+It's one possible approach to Object Relationship Mapping(ORM), allowing the developer to retrieve, and delete data in a relational database using Java objects. 
+Several implementations are available for the JPA specification.
+
+4. JPA vs JDBC
+When it comes to deciding how to communicate with back-end database systems, software architects face a significant technological challenge. 
+The debate between JPA and JDBC is often the deciding factor, as the two database technologies take very different approaches to work with persistent data.
+Let’s analyze the key differences between them.
+
+4.1. Database Interactions
+JDBC allows us to write SQL commands to read data from and update data to a relational database. JPA,
+unlike JDBC, allows developers to construct database-driven Java programs utilizing object-oriented semantics. 
+The JPA annotations describe how a given Java class and its variables map to a given table and its columns in a database.
+
+Differentiate between Hibernate and JPA ?
+
+
+JPA is a set of a specification which implementation is provided in Hibernate.
+JPA is a standard, while Hibernate is not.
+In hibernate, we use Session for handling the persistence of data, while in JPA, we use Entity Manager.
+The query language in Hibernate is Hibernate Query language, while in JPA, the query language is Java Persistence query language.
+Hibernate is one of the most JPA providers.
+
+ Explain the properties of JPA(Java Persistence API) ?
+ 
+ 
+ Java Persistence API aka JPA is a specification that provides functionalities of ORM in Java. ORM stands for Object Relational Mapping.
+ It basically an approach to map Java objects to Database tables and vice versa.
+
+JPA allows the java developer to work directly with java objects rather than writing SQL statements.
+
+ Why to use ORM and What are the benefits of ORM ?
+ 
+ ORM Cuts down your development time
+First benefit of an ORM is that it saves you a ton of development time (20% to 50% time depending on your situation).
+But, this is a lot of tedious work and you would definitely be happier if you didn't have to do it yourself.
+
+An ORM Tool Produces better designed code
+
+You don't have to be a .NET expert to use ORM
+
+An ORM Saves you testing time
+
+An ORM simplifies your .NET development
+
+what is Core Components of Hibernate explain ?
+
+Session: It is used to get a physical network with a database.
+Transaction: It represents the unit of work with a database.
+Query: It uses SQL and HQL string to retrieve the data from the database and create objects.
+Criteria: It is used to create and execute object-oriented queries and retrieve the objects.
+Configuration: It represents the properties of files required by Hibernate
+Session Factory: It configures hibernate for the application using the provided configuration file and instantiates the session object.
