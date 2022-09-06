@@ -1,0 +1,34 @@
+● Explain difference between JPA and Hibernate:
+
+
+jdbc : java database connectivity use to develop programm with help of database
+
+hibernate : it is a framework gives open source platform to connect appication to database
+
+
+jdbc : does not support data fetching delay need all resources no lazy loading.
+
+hibernate : only some of classes object need to get all data required lazy loding.
+
+
+jdbc : it is slow less optimised due to complex quries has to be written in database
+
+hibernate : it is fast compare to jdbc and optimised
+
+
+jdbc : manage exception need try and catch 
+
+hibernate : handles exception its own.
+
+
+
+Explain about the Layered Architecture of a Java Based Business application: ?
+
+
+it can be called as data access object pijo and pojo plain java object
+
+creating DAO pattern then connection to the hibernate getting connection to databases
+
+accessing the database and i plementing the objects of java into database to
+
+ perform the operations of varies requirements.

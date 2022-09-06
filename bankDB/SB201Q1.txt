@@ -1,0 +1,20 @@
+What are the advantages of using Hibernate over JDBC?
+
+
+Database dependency:- 
+hibernate : is not dependent on the database .
+jdbc : jdbc requires database the queries are written inside the database.
+
+
+Optimised Codeing :-
+
+hibernate : hibernate has short codes or less line of code and is more optimised in a way.
+
+jdbc : jdbc has more line of code and is less optimised due to complex quries wriiting
+
+
+fetching data :-
+
+hibernate : hibernate fetches data to get the specific task performed only need to load some child clases to get parent data
+
+jdbc : jdbc loads all the classes then collects data tooks more time
