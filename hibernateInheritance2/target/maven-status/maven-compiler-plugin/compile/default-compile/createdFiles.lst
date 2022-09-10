@@ -1,0 +1,4 @@
+entity\Course.class
+entity\Student.class
+utility\EntityManUtil.class
+test\Demo.class
