@@ -1,0 +1,56 @@
+- What are the challenges of developing an Enterprise application ?
+
+
+1 Changing Business Requirements and Environments
+
+The landscape of a business might change, sometimes completely.
+
+ There can be technological transformation taking place. Or there can be economic disruptions.
+
+2 Shifting to the mobile platform
+
+
+Mobility and cloud-computing accelerate faster than the desktop counterparts,
+
+and your company might lose relevance if you aren’t going mobile with your applications.
+
+
+3 Security
+
+A strong defense system is a primary requirement that includes encryptions and firewalls at application,
+
+host and network level.
+
+Enterprise Data is of utmost importance to a company. Use a competent security software to install and maintain security.
+
+Make sure the privacy of sensitive user information is protected.
+
+4 Big Data
+
+The process of making sense of Big Data starts by correctly locating and rationalizing this data from 
+
+various sub-systems of Enterprise Application.
+
+It’s essential to narrow down the sources of data that can otherwise create a lot of repetitiveness.
+
+5 Changing Technology
+
+An Enterprise Application particularly can greatly benefit from Artificial Intelligence due to
+
+data-driven tasks used in an Enterprise Application.
+
+7 User Interface and Experience
+
+The importance of beautifully designed, comfortable user-interface should not be underestimated as 
+
+it can result in greater and impactful engagement, 
+
+ultimately extracting more value from the same software.
+
+8 Low ROI
+
+The aim of an Enterprise Application can be to improve the sales cycle, 
+
+increase the productivity of the employees or to smoothen and optimize internal processes.
+
+The goal should be clear and it should be reflected in the design and development of the Enterprise Application.

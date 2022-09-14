@@ -1,0 +1,30 @@
+- What is the J2EE, list out some of the Application Server names ?
+
+
+Java 2 Enterprise Edition
+
+J2EE provides a set of services that are built-in a very large scale, multi-tier, component-based, distributed. Usually, 
+
+J2EE is a set of APIs that helps in building large-scale applications. 
+
+J2EE Technology not only uses the APIs but also it is a standard for building and deploying enterprise applications.
+
+it promises “write once, run anywhere”.
+
+1)Java Servlet
+
+2)Java Server Pages (JSP)
+
+3)Enterprise Java Bean (EJB)
+
+4)Java Database Connectivity (JDBC)
+
+5)Java Message Service (JMS)
+
+6)Java Transaction API (JTA)
+
+7)Java Mail
+
+8)Java Naming and Directory Interface (JNDI)
+
+9)J2EE Connector Architecture (JCA)

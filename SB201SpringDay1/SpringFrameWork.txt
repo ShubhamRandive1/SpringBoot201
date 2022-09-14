@@ -1,0 +1,72 @@
+- Write Short notes on how the Spring framework evolves.
+
+
+The need for Spring Data Framework
+
+Our digital world is holding more than 20 zettabytes of data, 
+
+and that is around as many bits of information as the stars in our physical universe. 
+
+These data come from various sources such as Banking, Retail, e-commerce, Education, Construction, 
+
+social networking sites etc, and available in both the forms (i.e.), 
+
+structured as well as unstructured. The cost of creating, capturing, storing,
+
+ and managing these data is the biggest challenge for the industry. There are many software and frameworks which are
+
+available in the market that has solved this problem up to some extent. But still these frameworks struggle with issues
+
+such as:
+
+It is extremely difficult and impossible to scale writes in RDBMS.
+
+Scaling it vertically or horizontally has either some limitations or expensive.
+
+Spring Data Framework:
+
+Spring data framework is the parent project which contains many sub-frameworks.
+ 
+All these sub frameworks deal with data access which is specific to a database. 
+
+The design objective of this framework is to provide a Spring-based familiar and consistent model for
+
+all data access technologies like relational or non-relational databases, cloud-based technologies,
+
+or map-reduce frameworks. In short Spring Data is an initiative to give Spring developers easy access 
+
+to the emerging world of NoSQL. Below are the range of technologies that Spring Data support actively.
+
+1.Relational
+
+JPA Extension
+
+JDBC Extension
+
+2.Non-Relational
+
+Redis
+
+Mongo
+
+HBase
+
+Neo4J
+
+Gemfire
+
+Lucene
+
+3.Query DSL
+
+The separate open-source project,
+
+that provides type safety for executing queries.
+
+4.Big Data
+
+Hadoop
+HDFS and M/R
+Hive
+Pig
+Cascading
