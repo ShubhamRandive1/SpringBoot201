@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="stu" class="com.masai.Student">  
+        <!-- collaborators and configuration for this bean go here -->
+        
+        <constructor-arg name="roll" value="17"/>
+        <constructor-arg name="name" value="Raju"/>
+        <constructor-arg name="marks" value="890"/>
+        
+        
+    </bean>
+    
+     <bean id="clg" class="com.masai.Collage">  
+        <!-- collaborators and configuration for this bean go here -->   
+    <constructor-arg name="collage_name" value="Harward University"/>
+    <constructor-arg name="student" ref="stu"/>
+    <constructor-arg name="collage_address" value="London"/>
+
+    
+    </bean>
+  
+    <!-- more bean definitions go here -->
+
+</beans>

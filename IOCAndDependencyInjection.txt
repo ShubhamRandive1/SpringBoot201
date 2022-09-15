@@ -1,0 +1,38 @@
+What is Inversion of Control (IoC)
+
+In traditional programming, the flow of the business logic is determined by objects 
+
+that are statically assigned to one another. With inversion of control, the flow depends on the object graph that is instantiated by the assembler and is made possible by object interactions being defined through abstractions.
+
+The binding process is achieved through dependency injection, although some argue 
+
+that the use of a service locator also provides inversion of control.
+
+Inversion of control as a design guideline serves the following purposes:
+
+There is a decoupling of the execution of a certain task from implementation.
+
+Every module can focus on what it is designed for.
+
+Modules make no assumptions about what other systems do but rely on their contracts.
+
+Replacing modules has no side effect on other modules.
+
+
+===============================================================
+
+
+What is Dependency Injection (DI)
+
+IoC is a design paradigm with the goal of giving more control to the targeted components of your application, the ones getting the work done.
+
+While Dependency injection is a pattern used to create instances of objects that other objects rely on without knowing at compile 
+
+time which class will be used to provide that functionality.
+
+IoC relies on dependency injection because a mechanism is needed in order to activate the components providing the specific functionality.
+
+The two concepts work together in this way to allow for much more flexible, reusable,
+
+
+and encapsulated code to be written. As such, they are important concepts in designing object-oriented solutions.

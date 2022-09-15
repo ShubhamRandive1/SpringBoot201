@@ -1,0 +1,57 @@
+
+Spring container and Spring beans
+
+A Spring IoC container manages one or more beans. These beans are created using the configuration metadata that has been supplied to the container (typically in the form of XML <bean/> definitions).
+
+Within the container itself, these bean definitions are represented as BeanDefinition objects, which contain (among other information) the following metadata:
+
+a package-qualified class name: typically this is the actual implementation class of the bean being defined.
+
+bean behavioral configuration elements, which state how the bean should behave in the container (scope, lifecycle callbacks, and so forth).
+
+references to other beans which are needed for the bean to do its work; these references are also called collaborators or dependencies.
+
+other configuration settings to set in the newly created object. An example would be the number of connections to use in a bean that manages a connection pool, or the size limit of the pool.
+
+
+
+The container
+
+The org.springframework.beans.factory.BeanFactory is the actual representation of the 
+
+Spring IoC container that is responsible for containing and otherwise managing the
+ 
+aforementioned beans.
+
+The BeanFactory interface is the central IoC container interface in Spring.
+
+Its responsibilities include instantiating or sourcing application objects, 
+
+configuring such objects, and assembling the dependencies between these objects.
+
+
+
+
+
+
+
+Initantiating Bean
+
+
+A bean definition essentially is a recipe for creating one or more objects. 
+
+The container looks at the recipe for a named bean when asked, 
+
+and uses the configuration metadata encapsulated by that bean definition to create (or acquire) an actual object.
+
+
+Initantiating Bean
+
+
+When creating a bean using the constructor approach, all normal classes are usable by and compatible with Spring.
+
+That is, the class being created does not need to implement any specific interfaces or be coded in a specific fashion.
+
+Just specifying the bean class should be enough.
+
+However, depending on what type of IoC you are going to use for that specific bean, you may need a default (empty) constructor.
