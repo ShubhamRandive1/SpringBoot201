@@ -1,0 +1,17 @@
+What is Auto wiring? What are the different types of Autowire types?
+
+- Searching for objects with the same name of object property is called auto wiring in Spring. By default, Spring framework enables the auto wiring.
+
+- There are four different types of auto wiring:
+
+1. byName
+
+2. byType
+
+3. constructor
+
+4. autodetect
+
+- It is possible to automatic resolve collaborators (other beans) for your bean by inspecting the contents of the BeanFactory.
+
+- You can wire the beans as you wish. But spring framework also does this work for you. It can auto wire the related beans together. All you have to do is just set the autowire attribute of bean tag to an autowire type.

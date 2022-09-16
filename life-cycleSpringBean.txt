@@ -1,0 +1,22 @@
+What is Life Cycle of a Bean?
+
+A Spring bean needs to be instantiated when the container starts, 
+
+based on Java or XML bean definition. The framework may also be required to perform some pre and post-initialization steps to get the bean into a usable state.
+
+After that, when the bean is no longer required, 
+
+it will be removed from the IoC container. Like the initialization phase, 
+
+the Spring framework may need to perform pre-and post-destruction steps to free the other system resources.
+
+
+Life Cycle Callback Methods
+
+Spring bean factory controls the creation and destruction of beans. 
+
+To execute some custom code, the bean factory provides the callback methods, which can be categorized broadly into two groups:
+
+Post-initialization callback methods
+
+Pre-destruction callback methods

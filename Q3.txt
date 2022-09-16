@@ -1,0 +1,26 @@
+Circular
+
+Constructor based Injection = It doesn’t allow to create circular dependency
+Setter based Injection = It doesn’t check the circular dependency
+
+Ordering
+
+Constructor based Injection = Constructor-based DI fixes the order in which the dependencies need to be injected.
+Setter based Injection = Setter-based DI helps us to inject the dependency only when it is required, as opposed to requiring it at construction time.
+
+
+MutilThread Environment
+  
+Constructor based Injection = Combining with final fields, constructor injection gives extra safety in multithreaded environment
+Setter based Injection = No extra benefit in setter injection
+
+
+Spring Code generation Library
+
+Constructor based Injection = Spring code generation library doesn’t support constructor injection so it will not be able to create proxy. It will force you to use no-argument constructor.  
+Setter based Injection = Spring framework level code uses setter injection
+
+Use Case
+
+Constructor based Injection = It should be used for mandatory dependencies
+Setter based Injection = It should be used for optional dependencies.
