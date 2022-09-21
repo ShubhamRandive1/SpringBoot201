@@ -1,0 +1,40 @@
+Spring Boot
+
+In Spring Boot, the intuition is to avoid boilerplate code. 
+All the dependencies are wrapped in a single unit, 
+and one need not focus on dependency while delivering the product.
+
+Spring MVC
+
+One can’t take advantage of the boilerplate concept, 
+
+and every dependency needs to be specified separately in order for the product or feature to run.
+
+Spring Boot
+
+In the case of packaging in the form of JAR, 
+
+one can include the embedded server in order for the feature to run stand-alone.
+
+Spring MVC
+
+A lot of manual configuration goes into the feature to attain the same level of packaging.
+
+Spring Boot
+
+The level of productivity will increase as not much time is spent in determining the dependencies and their versions.
+
+Spring MVC
+
+
+The level of productivity would decrease as a considerable amount of time is invested in understanding the dependency addition.
+
+
+Spring Boot
+
+Spring Boot has other technologies one can use to build different other applications.
+
+
+Spring MVC
+
+Spring MVC is designed only for the development of dynamic webpages and RESTful web services.
